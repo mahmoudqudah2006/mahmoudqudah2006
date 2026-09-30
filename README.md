@@ -122,12 +122,22 @@ I am particularly interested in extending this work toward **AI-native wireless 
 
 ---
 
+## ⭐ Featured Project
+
+### [vLLM Inference Benchmark](https://github.com/mahmoudqudah2006/vllm-inference-benchmark)
+
+A reproducible Python benchmarking harness for **vLLM and OpenAI-compatible LLM servers**, with async streaming workloads, TTFT/TPOT and throughput analysis, Prometheus snapshots, Docker deployment, automated tests, CI, and research-oriented reporting.
+
+**Stack:** Python · vLLM · OpenAI-compatible APIs · httpx · Prometheus · Docker · GitHub Actions
+
+---
+
 ## 🧪 Portfolio Roadmap
 
 I am building this GitHub profile as a collection of reproducible engineering and research projects across **AI, LLMs, VLMs, wireless communication, and simulation**.
 
 ### AI & LLM Engineering
-- **vllm-inference-benchmark** — LLM serving benchmark with throughput, latency, batching, concurrency, and GPU metrics
+- ✅ **[vllm-inference-benchmark](https://github.com/mahmoudqudah2006/vllm-inference-benchmark)** — Live LLM serving benchmark with throughput, latency, concurrency, Prometheus metrics, Docker, tests, and CI
 - **ai-research-assistant** — LLM + embeddings + semantic search + RAG for scientific literature
 - **multimodal-vlm-lab** — Vision-language model experiments for image understanding and multimodal reasoning
 
