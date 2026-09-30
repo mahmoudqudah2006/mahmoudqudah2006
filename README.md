@@ -122,34 +122,44 @@ I am particularly interested in extending this work toward **AI-native wireless 
 
 ---
 
-## ⭐ Featured Project
+## ⭐ Selected Projects
 
-### [vLLM Inference Benchmark](https://github.com/mahmoudqudah2006/vllm-inference-benchmark)
+I build reproducible projects at the intersection of **AI systems, wireless communications, networking, and research software engineering**.
 
-A reproducible Python benchmarking harness for **vLLM and OpenAI-compatible LLM servers**, with async streaming workloads, TTFT/TPOT and throughput analysis, Prometheus snapshots, Docker deployment, automated tests, CI, and research-oriented reporting.
+### 🤖 AI / LLM / VLM Engineering
 
-**Stack:** Python · vLLM · OpenAI-compatible APIs · httpx · Prometheus · Docker · GitHub Actions
+**[vllm-inference-benchmark](https://github.com/mahmoudqudah2006/vllm-inference-benchmark)**  
+Reproducible benchmarking for vLLM and OpenAI-compatible inference servers: async streaming workloads, TTFT/TPOT, throughput, Prometheus snapshots, Docker, tests, and CI workflows.
 
----
+**[ai-research-assistant](https://github.com/mahmoudqudah2006/ai-research-assistant)**  
+Local-first RAG research assistant with document ingestion, TF-IDF retrieval, optional Sentence Transformers embeddings, citation-aware prompting, and OpenAI-compatible generation.
 
-## 🧪 Portfolio Roadmap
+**[multimodal-vlm-lab](https://github.com/mahmoudqudah2006/multimodal-vlm-lab)**  
+Vision-Language Model experiment framework for image understanding, visual question answering, structured evaluation, and reproducible inference measurements.
 
-I am building this GitHub profile as a collection of reproducible engineering and research projects across **AI, LLMs, VLMs, wireless communication, and simulation**.
+### 📡 AI for Wireless Communications
 
-### AI & LLM Engineering
-- ✅ **[vllm-inference-benchmark](https://github.com/mahmoudqudah2006/vllm-inference-benchmark)** — Live LLM serving benchmark with throughput, latency, concurrency, Prometheus metrics, Docker, tests, and CI
-- **ai-research-assistant** — LLM + embeddings + semantic search + RAG for scientific literature
-- **multimodal-vlm-lab** — Vision-language model experiments for image understanding and multimodal reasoning
+**[wireless-ai-lab](https://github.com/mahmoudqudah2006/wireless-ai-lab)**  
+Machine-learning baselines for wireless link quality and modulation selection using reproducible synthetic link-budget data.
 
-### AI + Communication Engineering
-- **wireless-ai-lab** — ML, deep learning, and reinforcement learning for wireless-system problems
-- **rl-link-adaptation** — Reinforcement-learning-based adaptive modulation and coding
-- **gnn-wireless-network-optimizer** — Graph neural networks for network modeling and optimization
+**[rl-link-adaptation](https://github.com/mahmoudqudah2006/rl-link-adaptation)**  
+A reinforcement-learning environment for adaptive modulation/coding research with correlated channel dynamics, reliability-aware reward design, Q-learning, and threshold baselines.
 
-### Communication Simulations
-- **5g-tsn-link-adaptation** — Adaptive modulation and coding for 5G–TSN scenarios
-- **ofdm-channel-simulator** — OFDM, AWGN, fading, BER, channel estimation, and adaptive modulation
-- **ieee802154-simulator** — IEEE 802.15.4 superframe, latency, throughput, and energy simulations
+**[gnn-wireless-network-optimizer](https://github.com/mahmoudqudah2006/gnn-wireless-network-optimizer)**  
+Graph Neural Network baseline for conflict-aware wireless scheduling using interference graphs, a PyTorch GCN, class-imbalance handling, and conflict-free schedule projection.
+
+### 📶 Communication-System Simulation
+
+**[ofdm-adaptive-link-simulator](https://github.com/mahmoudqudah2006/ofdm-adaptive-link-simulator)**  
+Baseband OFDM simulation with BPSK/QPSK/16-QAM/64-QAM, AWGN and Rayleigh fading, BER sweeps, Gray-coded QAM, and adaptive modulation.
+
+**[5g-tsn-link-adaptation](https://github.com/mahmoudqudah2006/5g-tsn-link-adaptation)**  
+Research simulator for periodic TSN-like traffic over a time-varying wireless link, comparing fixed and adaptive MCS policies under latency/deadline constraints.
+
+**[ieee802154-simulator](https://github.com/mahmoudqudah2006/ieee802154-simulator)**  
+Beacon-enabled IEEE 802.15.4 research simulator covering BO/SO timing, duty cycle, contention, collisions, queueing latency, throughput, and approximate radio-energy trade-offs.
+
+> Each repository is structured as reproducible engineering work: package metadata, documented assumptions, command-line experiments, automated tests, and GitHub Actions workflow configuration.
 
 ---
 
